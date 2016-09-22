@@ -1,12 +1,21 @@
 {
-  "name": "document-as-code",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "testx-markdown-runner",
+  "version": "0.0.1",
+  "description": "A TestX runner or Markdown test specifications",
+  "main": "index.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "markdown",
+    "test",
+    "testx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/testxio/markdown-runner.git"
+  },
+  "author": "Jeroen Peeters",
   "license": "ISC",
   "dependencies": {
     "coffee-script": "^1.10.0",
@@ -16,6 +25,10 @@
     "underscore": "^1.8.3"
   },
   "peerDependencies": {
+    "testx": "^1.11.0",
+    "testx-jasmine-reporters": "^1.1.1"
+  },
+  "devDependencies": {
     "testx": "^1.11.0",
     "testx-jasmine-reporters": "^1.1.1"
   }
