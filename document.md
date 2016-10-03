@@ -1,25 +1,68 @@
 # Tests
 
-## Navigation bar
+## A
 
 In this chapter we test the navigation bar
 
-### should be able to navigate to all pages
+### A1
 
     - go to:
         url: /
-    - set:
-        menu.AppStore: ''
-    - check matches:
-        page.title: App Store
 
-### it should allow login
-
-The navigation bar should have a login button
+someting
 
     - go to:
         url: /
-    - set:
-        menu.AppStore: ''
-    - check matches:
-        page.title: App Store
+
+### A2
+
+    - go to:
+        url: /
+
+### A3
+
+    - go to:
+        url: /
+
+## B
+
+### B1
+
+
+    - go to:
+        url: /
+
+### B2
+
+
+    - go to:
+        url: /
+
+## C
+
+### C1
+
+    - go to:
+        url: /
+
+# D
+
+### D1.1
+
+    - go to:
+        url: /
+
+## D1.2
+
+    - go to:
+        url: /
+
+#### D1.2.deep
+
+    - go to:
+        url: /
+
+## D1.2.leesdeep
+
+    - go to:
+        url: /

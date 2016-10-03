@@ -26,12 +26,8 @@ exports.config =
       actionTimeout: 5000
 
   onPrepare: ->
-    browser.driver.manage().window().maximize()
-    testx.objects.add require './objects'
     reporters
       spec: true
-      html:
-        showPassed: true
-        showStacktrace: true
-        showSkipped: true
+      html: false
+      junit: false
     beforeEach -> browser.ignoreSynchronization = true
