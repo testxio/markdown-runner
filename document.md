@@ -9,10 +9,11 @@ In this chapter we test the navigation bar
     - go to:
         url: /
 
-someting
+---
 
     - go to:
-        url: /
+        ur: /
+
 
 ### A2
 
@@ -47,22 +48,22 @@ someting
 
 # D
 
-### D1.1
+### D3
 
     - go to:
         url: /
 
-## D1.2
+## D2
 
     - go to:
         url: /
 
-#### D1.2.deep
+#### D4
 
     - go to:
         url: /
 
-## D1.2.leesdeep
+## D2-2
 
     - go to:
         url: /
